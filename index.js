@@ -19,8 +19,9 @@ about.addEventListener("click", () => {
 contact.addEventListener("click", () => {
   const contactBox = new WinBox({
     title: "Contact Chakara",
-    background: "#0f0",
     x: "center",
+    background: "#0f0",
+    modal: true,
     y: "center",
     width: "50%",
     height: "50%",
